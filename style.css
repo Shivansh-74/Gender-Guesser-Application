@@ -1,0 +1,60 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 10% 5%;
+  padding: 2%;
+  align-items: center;
+
+  border: 1px solid black;
+  font-family: "Roboto", serif;
+}
+h1 {
+  font-size: 2.8rem;
+  color: rgba(63, 10, 109, 0.911);
+}
+h2 {
+  font-size: 2rem;
+  color: rgba(123, 51, 190, 0.87);
+}
+input {
+  padding: 2.4%;
+  border-radius: 19px;
+  margin: 2%;
+  border: 1px solid #ccc;
+}
+/* .btn {
+    width: 100%;
+    text-align: center;
+} */
+button {
+  padding: 2.4%;
+  border-radius: 19px;
+  margin: 2%;
+  border: 1px solid #ccc;
+  color: white;
+  background-color: rgba(64, 64, 226, 0.884);
+  box-shadow: 2px #ccc;
+}
+.para {
+    width: 100%;
+    text-align: center;
+    padding: 1.4%;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgba(123, 51, 190, 0.87);
+}
